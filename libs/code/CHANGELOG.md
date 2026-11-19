@@ -2,6 +2,19 @@
 
 # Deep Agents Code Changelog
 
+## [0.2.12](https://github.com/langchain-ai/deepagents/compare/deepagents-code==0.2.11...deepagents-code==0.2.12) (2026-11-19)
+
+
+### Features
+
+* **code:** add GPT-6.2 Astra and Sol to model picker ([#7831](https://github.com/langchain-ai/deepagents/issues/7831)) ([759a795](https://github.com/langchain-ai/deepagents/commit/759a795ecc496953e4e57fdff985b9c7bd58a9f8))
+
+
+### Bug Fixes
+
+* **code:** make Auto mode resolve relative paths the same way the file tools do ([#7821](https://github.com/langchain-ai/deepagents/issues/7821)) ([ba1095e](https://github.com/langchain-ai/deepagents/commit/ba1095ee548d7a2ba9ed4100cdcfa6dc8cce8a50))
+* **code:** share OpenAI `prompt_cache_key` across threads of an install ([#7839](https://github.com/langchain-ai/deepagents/issues/7839)) ([3eae64b](https://github.com/langchain-ai/deepagents/commit/3eae64b57fe6642399fd09804ae27f23b4e8b1a9))
+
 ## [0.2.11](https://github.com/langchain-ai/deepagents/compare/deepagents-code==0.2.10...deepagents-code==0.2.11) (2026-11-18)
 
 ### Bug Fixes
